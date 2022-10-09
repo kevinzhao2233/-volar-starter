@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "cd packages/shared && npm run build && cd ../web && npm run build-dts"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
